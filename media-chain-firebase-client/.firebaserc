@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "media-chain",
+    "media-chain": "media-chain"
+  }
+}

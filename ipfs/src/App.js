@@ -97,7 +97,7 @@ class App extends Component {
         fileName: this.state.fileName,
         videoHash: result[0].hash
       }
-      const url='http://media-chain.herokuapp.com/add-video-hash'
+      const url='https://media-chain.herokuapp.com/add-video-hash'
       axios.post(url,messageData)
         .then(res=> {
             console.log(res)
